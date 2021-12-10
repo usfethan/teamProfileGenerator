@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --galata: #FFEE32;
+    --saray: #D00000;
+    
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: var(--saray);
+    color: var(--galata);
+    font-size: 40px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.card-header {
+    background-color: var(--saray);
+    color: var(--galata);
+}
+
+.card-body {
+    background-color: var(--galata);
+    color: var(--saray);
+}
+
+.container {
+    margin:  100px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
