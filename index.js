@@ -15,7 +15,7 @@ const Intern = require('./library/Intern');
 const DIST_DIR = path.resolve(__dirname, 'dist')
 const outputPath = path.join(DIST_DIR, 'index.html');
 
-const render = require('./src/templatepage.js');
+const render = require('./src/generatehtml');
 
 // Create empty arrays for team and id as place holders
 const teamArr = [];
