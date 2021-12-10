@@ -108,7 +108,7 @@ html.push(team
         .join("")
         );
     html.push(team 
-        .filter(employee => employee.getRole() === "Manager")
+        .filter(employee => employee.getRole() === "Intern")
         .map(intern => createIntern(intern))
         .join("")
         );
